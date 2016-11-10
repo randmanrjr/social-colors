@@ -1,0 +1,47 @@
+//Social Media Colors
+
+$facebook-blue:          #3b5998;
+$facebook-med-blue:      #6d84b4;
+$facebook-lighter-blue:  #afbdd4;
+$facebook-lightest-blue: #d8dfea;
+
+$google-plus-red:        #d34836;
+$google-plus-d-gray:     #2d2d2d;
+$google-plus-l-gray:     #d2d2d2;
+
+$twitter-blue:           #55acee;
+$twitter-dark-blue:      #0084b4;
+$twitter-logo-blue:      #00aced;
+$twitter-verified-blue:  #1dcaff;
+
+$instagram-purple-violet: #8a3ab9;
+$instagram-blue:          #4c68d7;
+$instagram-maroon:        #cd486b;
+$instagram-orange:        #fbad50;
+$instagram-yellow:        #fccc63;
+$instagram-red-violet:    #bc2a8d;
+$instagram-red-orange:    #e95950;
+
+$youtube-color-1:        #e52d27;
+$youtube-color-2:        #b31217;
+
+@mixin youtube-gradient () {
+  background: $youtube-color-2; //old browsers
+  background: -webkit-linear-gradient(top,  $youtube-color-1 0%,$youtube-color-2 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  $youtube-color-1 0%,$youtube-color-2 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#{$youtube-color-1}', endColorstr='#{$youtube-color-2}',GradientType=0 ); // IE6-9
+}
+
+$vimeo-blue:              #1ab7ea;
+
+$linkedin-blue:           #0077B5;
+$pinterest-red:           #bd081c;
+$snapchat-yellow:         #fffc00;
+$foursquare-blue:         #0072b1;
+$dropbox-blue:            #007ee5;
+$github-black:            #000000;
+
+$rss-orange:              #ff6600;
+
+$wordpress-blue:          #21759b;
+$blogger:                 #fb8f3d;
